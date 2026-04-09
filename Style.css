@@ -2,7 +2,8 @@ body,
 div.h1,
 h2,
 h3,
-p {
+p,
+img {
     margin: 0 !important;
 }
 
@@ -26,9 +27,10 @@ div#invis-header {
 }
 
 img.logo {
-    border: 2px solid blue;
-    width: 30px;
-    height: 30px;
+    width: 100%;
+    height:100%;
+    max-width: 30px;
+    max-height: 30px;
 }
 
 img.deco {
@@ -90,12 +92,25 @@ button.sign-up {
     display: block;
 
 }
+table.thong-tin {
+    font-size:larger;
+    width: 40%;
+}
+table.thong-tin th {
+    text-align: right;
+    padding-right: 0.5em;
+    width: 35%;
+}
+table.thong-tin td {
+    text-align: left;
+    padding-left: 0.5em;
+}
 
 
 
 div#footer {
     position: absolute;
-    background-color: rgb(199, 21, 133);
+    background-color: rgb(219,112,147);
     width: 100%;
     color: white;
 }
@@ -116,5 +131,5 @@ div#footer {
     max-height: 100px;
     width:100%;
     height: 100%;
-    border: 1px solid yellow;
+    border: 1px solid rgb(255, 105, 180);
 }
