@@ -80,6 +80,9 @@ button.sign-up {
     height: 1em;
     color: rgb(250, 250, 210);
 }
+li {
+    margin: 0.5em 0 0.5em 0;
+}
 
 .sub-main {
     background-color: rgb(250, 250, 210);
@@ -93,7 +96,7 @@ button.sign-up {
 
 }
 table.thong-tin {
-    font-size:larger;
+    font-size:large;
     width: 40%;
 }
 table.thong-tin th {
