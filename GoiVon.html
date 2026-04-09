@@ -147,6 +147,10 @@
         <img src="KhoAnh/epstein.png" alt="Các loại người già" style="width:360px;height:240px; display:block;">
     </div>
 
+    <div class="sub-main" style="font-family:Arial, Helvetica, sans-serif;font-size:large;flex-direction: column;align-items: center;">
+        <lable for="Quyengoc" style="display:block">Chúng tôi cần sự giúp đỡ của các bạn</lable>
+        <input class="nut-ungho" style="display:block;width: 200px;" type="button" value="Ủng hộ" onclick="alert('Cảm ơn bạn đã quan tâm!')">
+    </div>
 
 
     <div id="footer">
@@ -174,17 +178,6 @@
             </div>
         </div>
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            if (screen.orientation && screen.orientation.lock) {
-                screen.orientation.lock('landscape').then(function() {
-                    console.log('Orientation locked to landscape');
-                }).catch(function(error) {
-                    console.log('Failed to lock orientation: ' + error);
-                });
-            }
-        });
-    </script>
 </body>
 
 </html>

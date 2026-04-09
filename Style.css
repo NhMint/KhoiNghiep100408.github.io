@@ -121,6 +121,11 @@ table.thong-tin td {
     text-align: left;
     padding-left: 0.5em;
 }
+.nut-ungho {
+    background-color: rgb(255, 105, 180);
+    color: white;
+    font-weight: bold;
+}
 
 
 
