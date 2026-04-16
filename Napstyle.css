@@ -1,0 +1,69 @@
+body,
+div.h1,
+h2,
+h3,
+p,
+img,
+table,
+td,
+th {
+    margin: 0 !important;
+}
+
+div#header {
+    background-color: rgb(199, 21, 133);
+    color: yellow;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div#invis-header {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img.logo {
+    width: 100%;
+    height: 100%;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+img.deco {
+    border: 2px solid blue;
+    width: 40px;
+    height: 30px;
+}
+button.sign-up {
+    width: 6em;
+    height: 30px;
+    margin: auto 0 auto 0;
+    background-color: white;
+    color: yellow;
+    font-weight: bold;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+.people {
+    width: 400px;
+    height: auto;
+    border: 5px solid white;
+}
+.qr {
+    width: 200px;
+    height: auto;
+}
+.break {
+    height: 1em;
+}

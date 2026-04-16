@@ -8,6 +8,11 @@
     <style>
         @import "Style.css";
     </style>
+    <script>
+        function ungHo() {
+            open('NapTien.html');
+        };
+    </script>
 </head>
 
 <body>
@@ -40,11 +45,10 @@
 
     <div class="main">
         <div>
-            <img src="KhoAnh/NguoiGia.jpg" alt="Người già neo đơn"
-                style="width:260px; height: 360px; display:block;">
+            <img src="KhoAnh/NguoiGia.jpg" alt="Người già neo đơn" style="width:260px; height: 360px; display:block;">
         </div>
         <div style="font-family:Arial, Helvetica, sans-serif;width:100%; max-width:400px;">
-            <h1>Thực trạng ngày nay</h1>
+            <h2>Thực trạng ngày nay</h2>
             <ul style="font-size:large;">
                 <li>TP.HCM có khoảng 1.6 triệu người từ 60 tuổi trở lên, chiếm khoảng 11% dân số</li>
                 <li>Tốc độ già hóa <strong> rất nhanh</strong>, thược nhóm cao của Việt Nam</li>
@@ -57,7 +61,7 @@
 
     <div class="main">
         <div style="font-family:Arial, Helvetica, sans-serif;width:100%; max-width:400px;">
-            <h1>Điều này có nghĩa là...</h1>
+            <h2>Điều này có nghĩa là...</h2>
             <ul style="font-size:large;">
                 <li>Đa số người già đang sống tại nhà (với gia đình nhưng con cái bận đi làm hoặc ở một mình)</li>
                 <li>Tình trạng "neo đơn đô thị" có xu hướng tăng mạnh nhưng bị ẩn</li>
@@ -65,8 +69,7 @@
             </ul>
         </div>
         <div>
-            <img src="KhoAnh/coughing.jpg" alt="Người già"
-                style="width:260px; height: 360px; display:block;">
+            <img src="KhoAnh/coughing.jpg" alt="Người già" style="width:260px; height: 360px; display:block;">
         </div>
     </div>
 
@@ -78,7 +81,9 @@
     <div class="sub-main">
         <img src="KhoAnh/ChamSocNguoiDa.jpg" alt="Chăm sóc người già" style="width:360px;height:240px;display:block;">
         <table class="thong-tin" style="margin: auto 0 auto 0;font-family:Arial, Helvetica, sans-serif;">
-            <tr><td colspan="2"><p style="font-size:35px;font-weight: bold;">Tại đây chúng tôi</p></td></tr>
+            <tr>
+                <td colspan="2" style="text-align: center;font-size: x-large;font-weight:bold;">Tại đây chúng tôi</td>
+            </tr>
             <tr>
                 <th>Chăm sóc sức khỏe</th>
                 <td>Do huyết áp, nhịp tim, nhắc uống thuốc, theo dõi bệnh lý</td>
@@ -120,36 +125,139 @@
     <div class="sub-main" style="font-family:Arial, Helvetica, sans-serif;">
         <h1>Mô hình hoạt động, ngân sách</h1>
     </div>
-    <div class="sub-main" style="font-family:Arial, Helvetica, sans-serif;">
+    <div class="thong-tin" style="font-family:Arial, Helvetica, sans-serif;">
         <table class="thong-tin">
             <tr>
-                <th>Mô hình</th>
-                <td>Thu phí theo tháng</td>
+                <th colspan="2" style="text-align: center;">Giai đoạn 1</th>
+            </tr>
+            <tr class="crucial">
+                <td>Hạng mục</td>
+                <td>Chi phí (triệu)</td>
             </tr>
             <tr>
-                <th>Nhân sự</th>
-                <td>5-8 Điều dưỡng, 1 Quản lý, 1-2 Kinh doanh, 1 Kỹ thuật</td>
+                <td>Cải tạo</td>
+                <td>150 - 300</td>
             </tr>
             <tr>
-                <th>Chi phí/tháng</th>
-                <td>100 ~ 180 triệu</td>
+                <td>Trang thiết bị</td>
+                <td>140 - 200</td>
             </tr>
             <tr>
-                <th>Chi phí khởi đầu</th>
-                <td>350 ~ 600 triệu</td>
+                <td>Cọc + thuê trước</td>
+                <td>60 - 120</td>
             </tr>
             <tr>
-                <th>Giá dịch vụ</th>
-                <td>4 ~ 5 triệu/người/tháng</td>
+                <td>Marketing + pháp lý</td>
+                <td>10 - 30</td>
+            </tr>
+            <tr class="crucial">
+                <td>Tổng setup</td>
+                <td>360 - 650</td>
+            </tr>
+            <tr>
+                <th colspan="2" style="text-align: left;">Dự phòng vận hành (tiền nhân sự 3-6 tháng)</th>
+            </tr>
+            <tr>
+                <td>Chi phí/tháng</td>
+                <td>120 - 160</td>
+            </tr>
+            <tr>
+                <td>3 tháng</td>
+                <td>360 - 480</td>
+            </tr>
+            <tr>
+                <td>6 tháng</td>
+                <td>720 - 960</td>
+            </tr>
+            <tr class="crucial">
+                <td>Tổng vốn cần (Giai đoạn 1)</td>
+                <td>~700 - 1400</td>
             </tr>
         </table>
-
-        <img src="KhoAnh/epstein.png" alt="Các loại người già" style="width:360px;height:240px; display:block;">
+        <table class="thong-tin">
+            <tr>
+                <th colspan="2" style="text-align: center;">Giai đoạn 2 - Mở cơ sở 2</th>
+            </tr>
+            <tr class="crucial">
+                <td>Hạng mục</td>
+                <td>Chi phí (triệu)</td>
+            </tr>
+            <tr>
+                <td>Cải tạo</td>
+                <td>120 - 250</td>
+            </tr>
+            <tr>
+                <td>Thiết bị</td>
+                <td>120 - 180</td>
+            </tr>
+            <tr>
+                <td>Cọc + thuê</td>
+                <td>60 - 100</td>
+            </tr>
+            <tr class="crucial">
+                <td>Tổng</td>
+                <td>300 - 500</td>
+            </tr>
+            <tr>
+                <th colspan="2" style="text-align: left;">Dự phòng (tiền nhân sự 3 tháng)</th>
+            </tr>
+            <tr>
+                <td>Chi phí</td>
+                <td>~300 - 450</td>
+            </tr>
+            <tr class="crucial">
+                <td>Tổng vốn cần (Giai đoạn 2)</td>
+                <td>~600 - 900</td>
+            </tr>
+        </table>
+        <table class="thong-tin">
+            <tr>
+                <th colspan="2" style="text-align: center;">Tổng toàn bộ kế hoạch</th>
+            </tr>
+            <tr class="crucial">
+                <td>Giai đoạn</td>
+                <td>Vốn</td>
+            </tr>
+            <tr>
+                <td>Cơ sở 1</td>
+                <td>700 triệu - 1,4 tỷ</td>
+            </tr>
+            <tr>
+                <td>Cơ sở 2</td>
+                <td>600 triệu - 900 triệu</td>
+            </tr>
+            <tr class="crucial">
+                <td>Tổng vốn</td>
+                <td>~1,6 tỷ</td>
+            </tr>
+        </table>
+        <table class="thong-tin">
+            <tr>
+                <th colspan="2" style="text-align: center;">Dự kiến thu nhập (sau 2 cơ sở)</th>
+            </tr>
+            <tr>
+                <td>Doanh thu</td>
+                <td>350 - 450 triệu/tháng</td>
+            </tr>
+            <tr>
+                <td>Chi phí</td>
+                <td>250 - 300 triệu/tháng</td>
+            </tr>
+            <tr class="crucial">
+                <td>Lợi nhuận</td>
+                <td>100 - 150 triệu/tháng</td>
+            </tr>
+            <tr class="crucial">
+                <td>Thời gian hoàn vốn</td>
+                <td>13 - 16 tháng</td>
+            </tr>
+        </table>
     </div>
 
-    <div class="sub-main" style="font-family:Arial, Helvetica, sans-serif;font-size:large;flex-direction: column;align-items: center;">
-        <lable for="Quyengoc" style="display:block">Chúng tôi cần sự giúp đỡ của các bạn</lable>
-        <input class="nut-ungho" style="display:block;width: 200px;" type="button" value="Ủng hộ" onclick="alert('Cảm ơn bạn đã quan tâm!')">
+    <div class="sub-main"
+        style="font-family:Arial, Helvetica, sans-serif;font-size:large;flex-direction: column;align-items: center;">
+        <lable for="Quyengoc" style="display:block"><h3>Chúng tôi cần sự giúp đỡ của các bạn</h3></lable>
+        <input class="nut-ungho" style="display:block;width: 200px;" type="button" value="Ủng hộ" onclick="ungHo()">
     </div>
 
 
